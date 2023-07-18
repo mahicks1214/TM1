@@ -8,19 +8,15 @@
     <link rel="stylesheet" href="./index.css">
 
 </head>
-
+<body>
 <h1>TM1 To-Do List</h1>
 
-<body>
-    <form onsubmit="return addTask('toDoList', this.inputItem)"> 
-        <input type = "text" id = "inputItem" placeholder = "New Task">
-        <!-- <input type = "submit"> -->
-        <button type="button" id="submit">Submit</button>
-    </form>
+<form onsubmit="return addTask('unordered-list', this.inputItem)">
+    <input type="text" id="inputItem" placeholder="New Task">
+    <button type="submit">Submit</button>
+</form>
 
-    <div id="toDoList">
         <ul id="unordered-list"></ul>
-    </div>
 
 
 </body>

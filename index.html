@@ -14,18 +14,14 @@
 <body>
     <form onsubmit="return addTask('toDoList', this.inputItem)"> 
         <input type = "text" id = "inputItem" placeholder = "New Task">
-        <input type = "submit">
+        <!-- <input type = "submit"> -->
+        <button type="button" id="submit">Submit</button>
     </form>
 
-    <ul id="toDoList">
-        
-    </ul>
-    <button type="button"> Add Task </button>
-    <button type="button">Remove Task</button>
+    <div id="toDoList">
+        <ul id="unordered-list"></ul>
+    </div>
 
-    <p>
-        <s> </s>
-    </p>
 
 </body>
 </html>

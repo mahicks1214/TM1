@@ -12,7 +12,7 @@
 <h1>TM1 To-Do List</h1>
 
 <body>
-    <form onsubmit="return addItem('toDoList', this.inputItem)"> 
+    <form onsubmit="return addTask('toDoList', this.inputItem)"> 
         <input type = "text" id = "inputItem" placeholder = "New Task">
         <input type = "submit">
     </form>
@@ -22,6 +22,10 @@
     </ul>
     <button type="button"> Add Task </button>
     <button type="button">Remove Task</button>
+
+    <p>
+        <s> </s>
+    </p>
 
 </body>
 </html>

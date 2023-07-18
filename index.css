@@ -1,3 +1,22 @@
-h1 { 
-    color: purple;
-  }
+body{
+  border: 2px solid #00A4BD;
+}
+
+h1 {text-align: center;
+  color: blue;
+}
+
+body {text-align: center;}
+
+
+ul {list-style-type: none;
+  margin-right: 200px;
+}
+
+li { display: flex;
+justify-content: space-between;
+border-bottom: dashed black;
+  
+}
+
+p.solid {border-style: solid;}
